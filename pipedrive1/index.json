@@ -1,0 +1,27 @@
+{
+  "name": "pipedrive_test",
+  "description": "Desc",
+  "triggers": [
+    "/v1/add_person"
+  ],
+  "actions": [
+    "/v0/get_all_persons",
+    "/v0/add_person",
+    "/v0/add_product"
+  ],
+  "version": 1,
+  "auth_type": "apikey",
+  "doc_link": "",
+  "appId": "d62d14a0-0503-4adb-9ab6-18545c0849c2",
+  "guid": "2fa52e82-80a1-4e4b-a33d-e73105772818",
+  "connectionUid": "pipedrive1_1655387201344",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "org_id",
+      "action_id": "/v0/add_person",
+      "field_id": "org_id",
+      "dependencies": []
+    }
+  ]
+}

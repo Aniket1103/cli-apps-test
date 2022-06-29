@@ -1,0 +1,14 @@
+{
+  "name": "Dropbox_test",
+  "description": "Dropbox_test",
+  "triggers": [
+    "/v0/new_file"
+  ],
+  "actions": [],
+  "version": 1,
+  "auth_type": "apikey",
+  "doc_link": "",
+  "appId": "890ac8d2-4b07-4d0f-8adb-acc1525bb904",
+  "guid": "b164ee29-2522-4aaa-baf2-888ed4f42b58",
+  "connectionUid": "dropbox_test_1656358240753"
+}
